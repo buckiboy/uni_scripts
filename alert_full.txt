@@ -1,0 +1,961 @@
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-14:57:27.854557 192.168.1.12:40451 -> 239.255.255.250:1900
+UDP TTL:255 TOS:0x0 ID:5870 IpLen:20 DgmLen:153 DF
+Len: 125
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-14:58:14.234992 192.168.1.12:36412 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:8182 IpLen:20 DgmLen:201 DF
+Len: 173
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-14:58:15.235865 192.168.1.12:36412 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:8183 IpLen:20 DgmLen:201 DF
+Len: 173
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-14:58:16.237570 192.168.1.12:36412 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:8227 IpLen:20 DgmLen:201 DF
+Len: 173
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-14:58:17.238355 192.168.1.12:36412 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:8414 IpLen:20 DgmLen:201 DF
+Len: 173
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-14:58:27.854485 192.168.1.12:55833 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:8498 IpLen:20 DgmLen:196 DF
+Len: 168
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-14:58:28.855523 192.168.1.12:55833 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:8595 IpLen:20 DgmLen:196 DF
+Len: 168
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-14:58:29.855598 192.168.1.12:55833 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:8652 IpLen:20 DgmLen:196 DF
+Len: 168
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-14:58:30.855871 192.168.1.12:55833 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:8831 IpLen:20 DgmLen:196 DF
+Len: 168
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-14:58:41.300058 192.168.1.12:38364 -> 192.168.1.50:161
+TCP TTL:39 TOS:0x0 ID:27682 IpLen:20 DgmLen:44
+******S* Seq: 0x42E57E8B  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-14:58:41.300382 192.168.1.12:38364 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:40 DF
+*****R** Seq: 0x42E57E8C  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-14:59:27.840641 192.168.1.12:40451 -> 239.255.255.250:1900
+UDP TTL:255 TOS:0x0 ID:21026 IpLen:20 DgmLen:153 DF
+Len: 125
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-14:59:48.361599 192.168.1.12:38364 -> 192.168.1.50:162
+TCP TTL:38 TOS:0x0 ID:44213 IpLen:20 DgmLen:44
+******S* Seq: 0x42E57E8B  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-14:59:48.361837 192.168.1.12:38364 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:40 DF
+*****R** Seq: 0x42E57E8C  Ack: 0x0  Win: 0x0  TcpLen: 20
+
+[**] [1:1421:19] "PROTOCOL-SNMP AgentX/tcp request" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-14:59:56.684781 192.168.1.12:38364 -> 192.168.1.50:705
+TCP TTL:47 TOS:0x0 ID:25998 IpLen:20 DgmLen:44
+******S* Seq: 0x42E57E8B  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460
+
+[**] [1:1421:19] "PROTOCOL-SNMP AgentX/tcp request" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-14:59:56.784852 192.168.1.12:38366 -> 192.168.1.50:705
+TCP TTL:46 TOS:0x0 ID:26243 IpLen:20 DgmLen:44
+******S* Seq: 0x42E77E89  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:00.516499 192.168.1.12:48992 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:19206 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xC90BB7DA  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762625824 0 NOP WS: 7
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:00.516510 192.168.1.12:52282 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:11656 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x4D1068C6  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762625824 0 NOP WS: 7
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:00.516666 192.168.1.12:48992 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:19207 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xC90BB7DB  Ack: 0xBC8A07A8  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762625824 2730661292
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:00.516669 192.168.1.12:52282 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:11657 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x4D1068C7  Ack: 0xFEE0F12D  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762625824 2730661292
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.521117 192.168.1.12:48992 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:19208 IpLen:20 DgmLen:56 DF
+***AP*** Seq: 0xC90BB7DB  Ack: 0xBC8A07A8  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631830 2730661292
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.521124 192.168.1.12:52282 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:11658 IpLen:20 DgmLen:56 DF
+***AP*** Seq: 0x4D1068C7  Ack: 0xFEE0F12D  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631830 2730661292
+
+[**] [1:44604:1] "SERVER-OTHER Novell eDirectory LDAP server buffer overflow attempt" [**]
+[Classification: Attempted User Privilege Gain] [Priority: 1] 
+06/08-15:00:06.521138 192.168.1.12:33458 -> 192.168.1.50:389
+TCP TTL:64 TOS:0x0 ID:32100 IpLen:20 DgmLen:103 DF
+***AP*** Seq: 0x446DD33D  Ack: 0xE36DFC3C  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631830 2730661292
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.522690 192.168.1.12:48992 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:19209 IpLen:20 DgmLen:52 DF
+***A***F Seq: 0xC90BB7DF  Ack: 0xBC8A07A9  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631831 2730667298
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.522702 192.168.1.12:33942 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:9125 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xA0DF17AD  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762631831 0 NOP WS: 7
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.522750 192.168.1.12:33942 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:9126 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xA0DF17AE  Ack: 0x4FB35AA1  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631831 2730667298
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.522779 192.168.1.12:33942 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:9127 IpLen:20 DgmLen:70 DF
+***AP*** Seq: 0xA0DF17AE  Ack: 0x4FB35AA1  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631831 2730667298
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.523031 192.168.1.12:52282 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:11659 IpLen:20 DgmLen:52 DF
+***A***F Seq: 0x4D1068CB  Ack: 0xFEE0F12E  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631832 2730667298
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.523044 192.168.1.12:58250 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:4943 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x7D9F5BDD  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762631832 0 NOP WS: 7
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.523088 192.168.1.12:58250 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:4944 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x7D9F5BDE  Ack: 0xC99A8C  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631832 2730667298
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.523152 192.168.1.12:58250 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:4945 IpLen:20 DgmLen:70 DF
+***AP*** Seq: 0x7D9F5BDE  Ack: 0xC99A8C  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631832 2730667298
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.528076 192.168.1.12:58250 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:4946 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x7D9F5BF0  Ack: 0xC99B03  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631837 2730667303
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.528118 192.168.1.12:58250 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:4947 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x7D9F5BF0  Ack: 0xC99B31  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631837 2730667303
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.530732 192.168.1.12:33942 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:9128 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xA0DF17C0  Ack: 0x4FB35B18  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631839 2730667306
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.530835 192.168.1.12:33942 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:9129 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xA0DF17C0  Ack: 0x4FB35B46  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631839 2730667306
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.531072 192.168.1.12:58250 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:4948 IpLen:20 DgmLen:52 DF
+***A***F Seq: 0x7D9F5BF0  Ack: 0xC99B32  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631840 2730667303
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:06.540404 192.168.1.12:33942 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:9130 IpLen:20 DgmLen:52 DF
+***A***F Seq: 0xA0DF17C0  Ack: 0x4FB35B47  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762631849 2730667306
+
+[**] [1:1448:20] "POLICY-OTHER Microsoft Windows Terminal server request attempt" [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+06/08-15:00:12.529803 192.168.1.12:51486 -> 192.168.1.50:3389
+TCP TTL:64 TOS:0x0 ID:2427 IpLen:20 DgmLen:94 DF
+***AP*** Seq: 0xF1484CDF  Ack: 0x1FFD74F5  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762637839 2730667303
+
+[**] [1:1447:20] "POLICY-OTHER Microsoft Windows Terminal server RDP attempt" [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+06/08-15:00:12.535151 192.168.1.12:56518 -> 192.168.1.50:3389
+TCP TTL:64 TOS:0x0 ID:57156 IpLen:20 DgmLen:63 DF
+***AP*** Seq: 0xCF309736  Ack: 0x27167615  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762637845 2730673310
+
+[**] [1:1448:20] "POLICY-OTHER Microsoft Windows Terminal server request attempt" [**]
+[Classification: Generic Protocol Command Decode] [Priority: 3] 
+06/08-15:00:12.535151 192.168.1.12:56518 -> 192.168.1.50:3389
+TCP TTL:64 TOS:0x0 ID:57156 IpLen:20 DgmLen:63 DF
+***AP*** Seq: 0xCF309736  Ack: 0x27167615  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762637845 2730673310
+
+[**] [1:43408:4] "POLICY-OTHER MongoDB query attempt" [**]
+[Classification: Attempted User Privilege Gain] [Priority: 1] 
+06/08-15:00:12.540260 192.168.1.12:34442 -> 192.168.1.50:27017
+TCP TTL:64 TOS:0x0 ID:19836 IpLen:20 DgmLen:117 DF
+***AP*** Seq: 0x48A7562  Ack: 0x77130B98  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762637850 2730667315
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-15:00:14.221388 192.168.1.12:39565 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:27122 IpLen:20 DgmLen:201 DF
+Len: 173
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-15:00:15.222342 192.168.1.12:39565 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:27314 IpLen:20 DgmLen:201 DF
+Len: 173
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-15:00:16.223663 192.168.1.12:39565 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:27438 IpLen:20 DgmLen:201 DF
+Len: 173
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-15:00:17.224825 192.168.1.12:39565 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:27477 IpLen:20 DgmLen:201 DF
+Len: 173
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.558241 192.168.1.12:41686 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:3844 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x8605710B  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762647869 0 NOP WS: 7
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.558287 192.168.1.12:41686 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:3845 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x8605710C  Ack: 0x3C270208  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647869 2730683334
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.559106 192.168.1.12:41688 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:2918 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xF1DB3676  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762647870 0 NOP WS: 7
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.559182 192.168.1.12:41702 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:48246 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xA8CAC05F  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762647870 0 NOP WS: 7
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.559194 192.168.1.12:41688 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:2919 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xF1DB3677  Ack: 0x4EF79560  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647870 2730683334
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.559332 192.168.1.12:41702 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:48247 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xA8CAC060  Ack: 0x16906CFA  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647870 2730683335
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.559911 192.168.1.12:58564 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:10303 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x82BC3464  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762647871 0 NOP WS: 7
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.559968 192.168.1.12:58564 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:10304 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x82BC3465  Ack: 0xDCDC701D  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647871 2730683335
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.577523 192.168.1.12:41686 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:3846 IpLen:20 DgmLen:70 DF
+***AP*** Seq: 0x8605710C  Ack: 0x3C270208  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647888 2730683334
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.577612 192.168.1.12:41688 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:2920 IpLen:20 DgmLen:667 DF
+***AP*** Seq: 0xF1DB3677  Ack: 0x4EF79560  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647888 2730683334
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.577618 192.168.1.12:41702 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:48248 IpLen:20 DgmLen:225 DF
+***AP*** Seq: 0xA8CAC060  Ack: 0x16906CFA  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647888 2730683335
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.577646 192.168.1.12:58564 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:10305 IpLen:20 DgmLen:667 DF
+***AP*** Seq: 0x82BC3465  Ack: 0xDCDC701D  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647888 2730683335
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.578470 192.168.1.12:41686 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:3847 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x8605711E  Ack: 0x3C27027F  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647889 2730683354
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.578868 192.168.1.12:41688 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:2921 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xF1DB38DE  Ack: 0x4EF79626  Win: 0x1F5  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647890 2730683354
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.579094 192.168.1.12:41702 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:48249 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xA8CAC10D  Ack: 0x16906D71  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647890 2730683354
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.579366 192.168.1.12:58564 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:10306 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x82BC36CC  Ack: 0xDCDC70E3  Win: 0x1F5  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647890 2730683355
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.618752 192.168.1.12:41686 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:3848 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x8605711E  Ack: 0x3C2702AE  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647930 2730683354
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.622789 192.168.1.12:41702 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:48250 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xA8CAC10D  Ack: 0x16906DA0  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647934 2730683354
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.622799 192.168.1.12:41688 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:2922 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xF1DB38DE  Ack: 0x4EF7978C  Win: 0x1F5  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647934 2730683354
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.622833 192.168.1.12:58564 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:10307 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x82BC36CC  Ack: 0xDCDC7249  Win: 0x1F5  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647934 2730683355
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.627175 192.168.1.12:41686 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:3849 IpLen:20 DgmLen:52 DF
+***A*R** Seq: 0x8605711E  Ack: 0x3C2702AE  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647938 2730683354
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.677394 192.168.1.12:58564 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:10308 IpLen:20 DgmLen:52 DF
+***A***F Seq: 0x82BC36CC  Ack: 0xDCDC7249  Win: 0x1F5  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647988 2730683355
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.677461 192.168.1.12:41688 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:2923 IpLen:20 DgmLen:52 DF
+***A***F Seq: 0xF1DB38DE  Ack: 0x4EF7978C  Win: 0x1F5  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762647988 2730683354
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.727280 192.168.1.12:41702 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:48251 IpLen:20 DgmLen:52 DF
+***A***F Seq: 0xA8CAC10D  Ack: 0x16906DA0  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648038 2730683354
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.727300 192.168.1.12:41712 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:469 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x13B86CBE  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762648038 0 NOP WS: 7
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.727365 192.168.1.12:41712 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:470 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x13B86CBF  Ack: 0xECE790E9  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648038 2730683503
+
+[**] [1:43542:2] "SERVER-OTHER CCProxy telnet ping buffer overflow attempt" [**]
+[Classification: Attempted User Privilege Gain] [Priority: 1] 
+06/08-15:00:22.777416 192.168.1.12:36198 -> 192.168.1.50:23
+TCP TTL:64 TOS:0x0 ID:15801 IpLen:20 DgmLen:666 DF
+***AP*** Seq: 0x91FFB221  Ack: 0x84561A22  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648088 2730683503
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.777437 192.168.1.12:41712 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:471 IpLen:20 DgmLen:225 DF
+***AP*** Seq: 0x13B86CBF  Ack: 0xECE790E9  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648088 2730683503
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.780313 192.168.1.12:41712 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:472 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x13B86D6C  Ack: 0xECE79160  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648091 2730683556
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.826791 192.168.1.12:41712 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:473 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x13B86D6C  Ack: 0xECE7918F  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648138 2730683556
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.927935 192.168.1.12:41712 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:474 IpLen:20 DgmLen:52 DF
+***A***F Seq: 0x13B86D6C  Ack: 0xECE7918F  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648239 2730683556
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.927987 192.168.1.12:41728 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:34137 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xF7146A83  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762648239 0 NOP WS: 7
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.928056 192.168.1.12:41728 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:34138 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xF7146A84  Ack: 0x3221CD78  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648239 2730683703
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.978255 192.168.1.12:41728 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:34139 IpLen:20 DgmLen:228 DF
+***AP*** Seq: 0xF7146A84  Ack: 0x3221CD78  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648289 2730683703
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.980192 192.168.1.12:41728 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:34140 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xF7146B34  Ack: 0x3221CDEF  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648291 2730683756
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:22.980234 192.168.1.12:41728 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:34141 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xF7146B34  Ack: 0x3221CE1D  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648291 2730683756
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.022797 192.168.1.12:41728 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:34142 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xF7146B34  Ack: 0x3221CE1E  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648334 2730683756
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.128127 192.168.1.12:41728 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:34143 IpLen:20 DgmLen:52 DF
+***A***F Seq: 0xF7146B34  Ack: 0x3221CE1E  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648439 2730683756
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.178663 192.168.1.12:58574 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:32036 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xB3D833FF  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762648489 0 NOP WS: 7
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.178810 192.168.1.12:58574 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:32037 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xB3D83400  Ack: 0x5672C7FD  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648490 2730683954
+
+[**] [1:10011:18] "SERVER-MAIL Multiple IMAP servers APPEND command buffer overflow attempt" [**]
+[Classification: Misc Attack] [Priority: 2] 
+06/08-15:00:23.228700 192.168.1.12:46844 -> 192.168.1.50:143
+TCP TTL:64 TOS:0x0 ID:40819 IpLen:20 DgmLen:667 DF
+***AP*** Seq: 0xF582FCBA  Ack: 0x255F90AB  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648540 2730683954
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.228731 192.168.1.12:58574 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:32038 IpLen:20 DgmLen:225 DF
+***AP*** Seq: 0xB3D83400  Ack: 0x5672C7FD  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648540 2730683954
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.230298 192.168.1.12:58574 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:32039 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xB3D834AD  Ack: 0x5672C874  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648541 2730684006
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.270729 192.168.1.12:58574 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:32040 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xB3D834AD  Ack: 0x5672C8A3  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648582 2730684006
+
+[**] [1:43542:2] "SERVER-OTHER CCProxy telnet ping buffer overflow attempt" [**]
+[Classification: Attempted User Privilege Gain] [Priority: 1] 
+06/08-15:00:23.329040 192.168.1.12:36218 -> 192.168.1.50:23
+TCP TTL:64 TOS:0x0 ID:60267 IpLen:20 DgmLen:224 DF
+***AP*** Seq: 0xD21F7F8D  Ack: 0xB8CB607B  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648640 2730684054
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.378443 192.168.1.12:58574 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:32041 IpLen:20 DgmLen:52 DF
+***A***F Seq: 0xB3D834AD  Ack: 0x5672C8A3  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648689 2730684006
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.378494 192.168.1.12:58584 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:35854 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x95D69077  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762648689 0 NOP WS: 7
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.378620 192.168.1.12:58584 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:35855 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x95D69078  Ack: 0x62BDB8D7  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648689 2730684154
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.428605 192.168.1.12:58584 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:35856 IpLen:20 DgmLen:225 DF
+***AP*** Seq: 0x95D69078  Ack: 0x62BDB8D7  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648739 2730684154
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.429704 192.168.1.12:58584 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:35857 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x95D69125  Ack: 0x62BDB94E  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648741 2730684205
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.473071 192.168.1.12:58584 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:35858 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x95D69125  Ack: 0x62BDB97D  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648782 2730684205
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.477975 192.168.1.12:58586 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:31606 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x8B44AAD8  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762648789 0 NOP WS: 7
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.478096 192.168.1.12:58586 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:31607 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x8B44AAD9  Ack: 0x36839795  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648789 2730684253
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.528751 192.168.1.12:58586 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:31608 IpLen:20 DgmLen:70 DF
+***AP*** Seq: 0x8B44AAD9  Ack: 0x36839795  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648840 2730684253
+
+[**] [1:43542:2] "SERVER-OTHER CCProxy telnet ping buffer overflow attempt" [**]
+[Classification: Attempted User Privilege Gain] [Priority: 1] 
+06/08-15:00:23.528771 192.168.1.12:36228 -> 192.168.1.50:23
+TCP TTL:64 TOS:0x0 ID:57865 IpLen:20 DgmLen:224 DF
+***AP*** Seq: 0xB954827B  Ack: 0x2E3C7574  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648840 2730684254
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.529504 192.168.1.12:58586 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:31609 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x8B44AAEB  Ack: 0x3683980C  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648840 2730684305
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.529538 192.168.1.12:58586 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:31610 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x8B44AAEB  Ack: 0x3683983A  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648840 2730684305
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.570693 192.168.1.12:58586 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:31611 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x8B44AAEB  Ack: 0x3683983B  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648882 2730684305
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.578325 192.168.1.12:58584 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:35859 IpLen:20 DgmLen:52 DF
+***A***F Seq: 0x95D69125  Ack: 0x62BDB97D  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648889 2730684205
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.578337 192.168.1.12:58592 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:64795 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x922BE554  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762648889 0 NOP WS: 7
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.578442 192.168.1.12:58592 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:64796 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x922BE555  Ack: 0x994C81F5  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648889 2730684354
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.628049 192.168.1.12:58586 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:31612 IpLen:20 DgmLen:52 DF
+***A***F Seq: 0x8B44AAEB  Ack: 0x3683983B  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648939 2730684305
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.628392 192.168.1.12:58592 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:64797 IpLen:20 DgmLen:228 DF
+***AP*** Seq: 0x922BE555  Ack: 0x994C81F5  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648939 2730684354
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.629645 192.168.1.12:58592 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:64798 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x922BE605  Ack: 0x994C826C  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648941 2730684405
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.670745 192.168.1.12:58592 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:64799 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x922BE605  Ack: 0x994C829B  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762648982 2730684405
+
+[**] [1:51018:1] "SERVER-OTHER DualDesk v20 Proxy.exe long string denial of service attempt" [**]
+06/08-15:00:23.628551 
+[**] [1:43542:2] "SERVER-OTHER CCProxy telnet ping buffer overflow attempt" [**]
+[Classification: Attempted User Privilege Gain] [Priority: 1] 
+06/08-15:00:23.728286 192.168.1.12:36242 -> 192.168.1.50:23
+TCP TTL:64 TOS:0x0 ID:27398 IpLen:20 DgmLen:227 DF
+***AP*** Seq: 0x628A52B5  Ack: 0x2BAF65C  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762649039 2730684453
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:23.777502 192.168.1.12:58592 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:64800 IpLen:20 DgmLen:52 DF
+***A***F Seq: 0x922BE605  Ack: 0x994C829B  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762649088 2730684405
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-15:00:27.840343 192.168.1.12:54239 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:28434 IpLen:20 DgmLen:196 DF
+Len: 168
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-15:00:28.841383 192.168.1.12:54239 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:28477 IpLen:20 DgmLen:196 DF
+Len: 168
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-15:00:29.841830 192.168.1.12:54239 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:28503 IpLen:20 DgmLen:196 DF
+Len: 168
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-15:00:30.842812 192.168.1.12:54239 -> 239.255.255.250:1900
+UDP TTL:1 TOS:0x0 ID:28647 IpLen:20 DgmLen:196 DF
+Len: 168
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.578063 192.168.1.12:37604 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:30814 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x17207339  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762677893 0 NOP WS: 7
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.578509 192.168.1.12:37604 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:30815 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x1720733A  Ack: 0x72E43119  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677893 2730713353
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.578664 192.168.1.12:37604 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:30816 IpLen:20 DgmLen:70 DF
+***AP*** Seq: 0x1720733A  Ack: 0x72E43119  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677893 2730713353
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.581282 192.168.1.12:37604 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:30817 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x1720734C  Ack: 0x72E43190  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677896 2730713357
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.581321 192.168.1.12:37604 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:30818 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x1720734C  Ack: 0x72E431BE  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677896 2730713357
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.582997 192.168.1.12:37604 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:30819 IpLen:20 DgmLen:52 DF
+***A*R** Seq: 0x1720734C  Ack: 0x72E431BF  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677898 2730713357
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.583027 192.168.1.12:37612 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:15571 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xB2127175  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762677898 0 NOP WS: 7
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.583062 192.168.1.12:37612 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:15572 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xB2127176  Ack: 0x1C7F99C9  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677898 2730713358
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.583831 192.168.1.12:37612 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:15573 IpLen:20 DgmLen:85 DF
+***AP*** Seq: 0xB2127176  Ack: 0x1C7F99C9  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677899 2730713358
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.586611 192.168.1.12:37612 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:15574 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xB2127197  Ack: 0x1C7F9A40  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677901 2730713362
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.586659 192.168.1.12:37612 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:15575 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xB2127197  Ack: 0x1C7F9A6E  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677901 2730713362
+
+[**] [1:1418:19] "PROTOCOL-SNMP request tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.590858 192.168.1.12:37612 -> 192.168.1.50:161
+TCP TTL:64 TOS:0x0 ID:15576 IpLen:20 DgmLen:52 DF
+***A*R** Seq: 0xB2127197  Ack: 0x1C7F9A6F  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677906 2730713362
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.591028 192.168.1.12:40318 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:50234 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xFE65A56B  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762677906 0 NOP WS: 7
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.591120 192.168.1.12:40318 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:50235 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xFE65A56C  Ack: 0xB153737D  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677906 2730713366
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.591595 192.168.1.12:40318 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:50236 IpLen:20 DgmLen:70 DF
+***AP*** Seq: 0xFE65A56C  Ack: 0xB153737D  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677906 2730713366
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.599042 192.168.1.12:40318 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:50237 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xFE65A57E  Ack: 0xB15373F4  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677914 2730713374
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.600015 192.168.1.12:40318 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:50238 IpLen:20 DgmLen:52 DF
+***A*R** Seq: 0xFE65A57E  Ack: 0xB1537423  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677915 2730713374
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.600053 192.168.1.12:40324 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:49494 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xA74E413E  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK  TS: 2762677915 0 NOP WS: 7
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.600134 192.168.1.12:40324 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:49495 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xA74E413F  Ack: 0xE5168F4C  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677915 2730713375
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.600719 192.168.1.12:40324 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:49496 IpLen:20 DgmLen:85 DF
+***AP*** Seq: 0xA74E413F  Ack: 0xE5168F4C  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677916 2730713375
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.601922 192.168.1.12:40324 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:49497 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xA74E4160  Ack: 0xE5168FC3  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677917 2730713377
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.601960 192.168.1.12:40324 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:49498 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0xA74E4160  Ack: 0xE5168FF1  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677917 2730713377
+
+[**] [1:1420:19] "PROTOCOL-SNMP trap tcp" [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+06/08-15:00:52.607855 192.168.1.12:40324 -> 192.168.1.50:162
+TCP TTL:64 TOS:0x0 ID:49499 IpLen:20 DgmLen:52 DF
+***A*R** Seq: 0xA74E4160  Ack: 0xE5168FF2  Win: 0x1F6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 2762677923 2730713377
+
+[**] [1:1917:16] "INDICATOR-SCAN UPnP service discover attempt" [**]
+[Classification: Detection of a Network Scan] [Priority: 3] 
+06/08-15:01:27.841825 192.168.1.12:40451 -> 239.255.255.250:1900
+UDP TTL:255 TOS:0x0 ID:37470 IpLen:20 DgmLen:153 DF
+Len: 125
+
